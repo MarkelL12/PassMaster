@@ -1,0 +1,32 @@
+{
+  "name": "passmaster",
+  "version": "0.1.0",
+  "description": "A self-hosted server that allows you to keep all your passwords safe and secure",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon source/server.ts",
+    "test": "test_index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkelL12/PassMaster"
+  },
+  "keywords": [
+    "password",
+    "vault",
+    "secure"
+  ],
+  "author": "Markell12",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
